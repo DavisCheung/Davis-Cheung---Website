@@ -17,7 +17,11 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "gatsby": "^3.8.1",
+    "babel-eslint": "^10.1.0",
+    "css-what": "^5.0.1",
+    "framer-motion": "^4.1.17",
+    "gatsby": "^3.10.2",
+    "gatsby-image": "^3.10.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
     "gatsby-plugin-image": "^1.9.0",
     "gatsby-plugin-manifest": "^3.9.0",
@@ -25,10 +29,16 @@
     "gatsby-plugin-react-helmet": "^4.9.0",
     "gatsby-plugin-sharp": "^3.9.0",
     "gatsby-plugin-sitemap": "^4.5.0",
+    "gatsby-plugin-typography": "^3.9.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^3.9.0",
     "gatsby-transformer-sharp": "^3.9.0",
+    "postcss": "^8.3.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.20",
+    "typescript": "^4.3.5",
+    "typography": "^0.16.21"
   }
 }

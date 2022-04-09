@@ -1,0 +1,56 @@
+/* General */
+html {
+    background-color: rgba(247, 242, 234, 1.00);
+}
+
+p {
+    color: maroon;
+}
+
+.page {
+    color: #1a1a1a;
+    font-family: Helvetica;
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/* Header and Navbar */
+.navBar {
+    min-width: 1080px;
+    text-align-last: center;
+    background-color: transparent;
+}
+
+.navLink {
+    color: #1a1a1a;
+    font-family: "Hina Mincho";
+    font-size: 25px;
+    margin: 4%;
+}
+
+.activeNavLink {
+    color: #cc2c24 !important;
+    font-family: "Hina Mincho";
+    font-size: 25px;
+    margin: 4%;
+}
+
+#header {
+    height: 70px;
+    background-color: transparent;
+    box-shadow: 0px 2px #cc2c24;
+}
+
+#zhang {
+    font-size: 50px;
+    font-family: "HanaMinA";
+    font-weight: bold;
+}
+
+
+/* Clear default link style */
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none;}
+a:active { text-decoration: none;}

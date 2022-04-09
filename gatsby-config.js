@@ -33,5 +33,20 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography.js"
+      }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Hina Mincho"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
   ],
 };
